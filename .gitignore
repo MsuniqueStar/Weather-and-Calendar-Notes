@@ -1,0 +1,16 @@
+# Ignore virtual environment directories
+venv/
+myenv/
+
+# Ignore environment files
+.env
+
+# Ignore credentials
+credentials.json
+
+# Ignore log files
+error_log.txt
+
+# Ignore SSH key files
+eval "$(ssh-agent -s)"
+eval "$(ssh-agent -s)".pub
